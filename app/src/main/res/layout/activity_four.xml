@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4BFFFFFF"
+    tools:context=".Four">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="147dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="13dp"
+        android:text="FarmerEats"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="303dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="116dp"
+        android:text="Welcome Back !"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="175dp"
+        android:text="New here ? "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="175dp"
+        android:text="Create account"
+        android:textColor="#E11E1E"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="345dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="225dp"
+        android:background="#527E7676"
+        android:drawableStart="@drawable/baseline_alternate_email_24"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="341dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="295dp"
+        android:background="#527E7676"
+        android:drawableStart="@drawable/baseline_lock_open_24"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="285dp"
+        android:background="#CA2020"
+        android:text="Login"
+        android:textColor="#F3EDED"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginBottom="226dp"
+        android:text="or login with"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="106dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/g" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/f" />
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="44dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/i" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
